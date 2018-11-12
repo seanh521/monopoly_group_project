@@ -1,0 +1,227 @@
+    body {
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        background-color: #ddf4df;
+      }
+      
+      table{
+        border: 2px solid black;
+        text-align: center;
+        border-collapse: collapse;
+        width:700px;
+        height:700px;
+        padding: 0px;
+        margin: 0px;
+        table-layout: fixed;
+        resize: none;
+      }
+      
+      #board {
+          background-image: url('images/Board.png');
+          background-size: 700px 700px;
+      }
+        .edge {
+            height: 91px !important;
+            width: 90px !important;
+            border-collapse: collapse;
+            padding: 0px;
+            margin: 0px;
+            table-layout: fixed;
+            resize: none;
+      
+        }
+        .player{
+          width: 40px;
+          height: 40px;
+        }
+  
+        .ver{
+         width: 55px;
+         height:91px;
+         padding: 0px;
+         margin: 0px;
+         border-collapse: collapse;
+         table-layout: fixed;
+         resize: none;
+      
+       }
+      
+       .hor{
+         width: 91px;
+         height:55px;
+         padding: 0px;
+         margin: 0px;
+         border-collapse: collapse;
+         table-layout: fixed;
+         resize: none;
+      
+      
+       }
+  
+          #dicePosition1 {
+            height: 30px;
+            width: 30px;
+            border: 1px solid black;
+            border-radius: 5px;
+            background-color: white;
+            opacity: 0.0;
+          }
+  
+          .dice {
+            width: 30px;
+            height: 30px;
+          }
+      
+          #dicePosition2 {
+            height: 30px;
+            width: 30px;
+            border: 1px solid black;
+            border-radius: 5px;
+            background-color: white;
+            opacity: 0.0;
+          }
+      
+          #goojf {
+            visibility: hidden;
+            height: 75px;
+            width: 150px;
+            border: 2px solid black;
+          }
+      
+          #goojfNo {
+            visibility: hidden;
+            height: 75px;
+            width: 150px;
+            border: 2px solid black;
+          }
+      
+          #buyOrAuction {
+            visibility: hidden;
+            height: 75px;
+            width: 150px;
+            border: 2px solid black;
+          }
+      
+          #auctionWindow {
+            visibility: hidden;
+            height: 150px;
+            width: 300px;
+            border: 2px black solid;
+          }
+      
+          #bidder {
+            visibility: hidden;
+          }
+  
+          #canButt {
+            height: 40px;
+            width: 40px;
+            background-image: url('images/can.png');
+            background-size: 35px 35px;
+          }
+  
+          #burrButt {
+            height: 40px;
+            width: 40px;
+            background-image: url('images/burrito.png');
+            background-size: 35px 35px;
+          }
+        
+          #pastaButt {
+            height: 40px;
+            width: 40px;
+            background-image: url('images/pasta.png');
+            background-size: 35px 35px;
+          }
+  
+          #coffButt {
+            height: 40px;
+            width: 40px;
+            background-image: url('images/coffee.png');
+            background-size: 35px 35px;
+          }
+  
+          #contButt {
+            height: 40px;
+            width: 40px;
+            background-image: url('images/controller.png');
+            background-size: 35px 35px;
+          }
+  
+          #convButt {
+            height: 40px;
+            width: 40px;
+            background-image: url('images/shoes.png');
+            background-size: 35px 35px;
+          }
+  
+          #pizzaButt {
+            height: 40px;
+            width: 40px;
+            background-image: url('images/pizza.png');
+            background-size: 35px 35px;
+          }
+  
+          #bagButt {
+            height: 40px;
+            width: 40px;
+            background-image: url('images/bag.png');
+            background-size: 35px 35px;
+          }
+  
+          #iconChoices {
+            position: absolute;
+          }
+  
+          .sounds {
+            display: none;
+          }
+      
+           .right{
+             height: 56.5px;
+             width: 20px;
+             padding: 0px;
+             margin: 0px;
+             float:left;
+             left: 0%;
+             top: 0%;
+             margin-left: 0px;
+             z-index: 2
+           }
+           .left{
+             height: 56.5px;
+             width: 20px;
+             resize: none;
+             padding: 0px;
+             margin: 0px;
+             float: right;
+             left: 78%;
+             top: 0%;
+             margin-left: 0px;
+             z-index: 2
+           }
+           .top{
+             height: 20px;
+             width: 56.5px;
+             resize: none;
+             padding: 0px;
+             margin: 0px;
+             position: absolute;
+             top: 80px;
+             resize: none;
+             z-index: 2;
+           }
+      
+           .bottom{
+             height: 20px;
+             width: 56.5px;
+             resize: none;
+             padding: 0px;
+             margin: 0px;
+             position: absolute ;
+             bottom: -8px;
+             resize: none;
+             z-index: 2;
+           }
+ 
